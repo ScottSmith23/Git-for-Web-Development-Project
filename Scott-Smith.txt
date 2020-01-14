@@ -87,7 +87,7 @@ Stretch Questions
     2. What happens when an element is positioned absolutely? 
 	- When an element is position absolutely it is position automatically to the starting point or top-left corner of it's parent element, it will remove the element from the document flow and other elements behave as if the absolute element is removed completely from the webpage
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-	- You can use display inline because the width properties can be changed
+	- You can use display inline-block because it has the properties of a block but the width properties can be changed
     4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
 		- <header>,<div>,<p> are display block. <span>,<a> are inline by default. The <img> element is inline-block by default
     5. In your own words, explain the box model. What is the fix for the box model? 
