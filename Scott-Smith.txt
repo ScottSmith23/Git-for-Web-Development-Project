@@ -1,0 +1,94 @@
+https://codepen.io/ScottSmith23/pen/BayPQzL
+
+
+    1. What is Semantic HTML? 
+	-They are elements of HTML that describe it's meaning in both a human and machine readable way
+    2. What is HTML used for? 
+	-HTML is used to create webpages
+    3. What is an attribute and where do we put it? 
+	-Are used inside the opening tag to control the elements behavior
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	-h1 is used for the title of the webpage and you should only use it once if possible
+    5. Name two tags that have required attributes
+	-img and href require addresses
+    6. What do we put in the head of our HTML document? 
+	-<head>
+    7. What is an id? 
+	- an id is an attribute that is mostly used to point to a style in a style sheet		
+    8. What elements can I add an id to? 
+	-All elements
+    9. How many times can I use the same id on a page? 
+	-Element's ids should be unique
+    10. What is a class? 
+	-Is an attribute that specifies one or more class names for an HTML element
+    11. What elements can I add a class to? 
+	-All elements
+    12. How many times can I use the same class on a page? 
+	-Multiple times
+    13. How do I get my link to open in a new tab?
+	- add target="_blank" to the anchor tag
+    14. What is the alt attribute used for? 
+	-Tells the web site viewers the nature or content of an image
+    15. How do I reference an id?
+	-Use the # symbol
+    16. What is the difference between a section and a div?
+	-Section conveys that the content inside is related while div does not convey any meaning
+    17. What is CSS used for? 
+	-CSS is used to make the page visually appealing as well as improving readability
+    18. How to we select an element? Example - every h2 on the page
+	-simply use h2 as a selector
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	- An id is unique and can only be used once, a class can be used multiple times. You want to use ID to select just one element while with class you can select and style multiple elements.
+    20. How do we select classes in CSS?
+	- you use the . symbol then the class name example ".class"
+    21. How do we select a p element with a single class of “human””?
+	- use p.human
+    22. What is a parent child selector? When would this be useful? 
+	- It selects all child elements within a parent, It is useful if you want to be able to both either select a specific element or all related elements.
+    23. How do you select all links within a div with the class of sidebar?
+	- use "div .sidebar"
+    24. What is a pseudo selector?
+	-are used when you don't have a set amount of elements but want to style them individually
+    25. What do we use the change the spacing between lines?
+	-use line-height:
+    26. What do we use to change the spacing between letters?
+	-use letter-spacing:
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	-use text-transform:
+    28. How do I add a 1px border around my div that is dotted and black?
+	-use border:1px dotted #000000;
+    29. How do I select everything on the page? 
+	-use *
+    30. How do I write a comment in CSS?
+	-use /* to open and */ to close
+    31. How do I find out what file I am in, when I am using the command line? 
+	-use pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	-use ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	-use rm, you should be careful because it does not ask for confirmation
+    34. Why should I use version control? 
+		-It is useful for keeping track of every individual change and helps prevent concurrent work from conflicting
+    35. How often should I commit to github?
+		-Frequently or after a major change
+    36. What is the command we would use to push our repo up to github? 
+		-git push
+    37. Walk me through Lambda's git flow. 
+		-The student will fork their own version of the repository
+		-Add the Team lead as a collaborator
+		-Clone the repository
+		-Then create their own branch on which to implement the project
+		-Submit their project into the new branch, Use their own student fork as the base and add their TL as a reviewer on the PR
+		-The TL will then count the HW as done by merging the HW back into the master student fork
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+		-An inline element does not cause a line break while a block element always starts on a new line and takes up the full width of the page. Inline elements like <span> are used as a container for HTML text and can be used to style a certain text element withing a larger text while block elements like <div> are used to separate some HTML elements from the rest, the <div> element is unstyle so it does not change the look of an HTML element.
+    2. What happens when an element is positioned absolutely? 
+	- When an element is position absolutely it is position automatically to the starting point or top-left corner of it's parent element, it will remove the element from the document flow and other elements behave as if the absolute element is removed completely from the webpage
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+	- You can use display inline because the width properties can be changed
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+		- <header>,<div>,<p> are display block. <span>,<a> are inline by default. The <img> element is inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model? 
+		-The box model is a box that wraps around every HTML element and consists of a Margin,Border,Padding and the Content itself respectively.
